@@ -50,22 +50,22 @@ const container = document.querySelector('.container-project');
 
 const cardData = [
   {
-    imageUrl: '../../src/assets/backgrounds/lawyerUp.png',
+    imageUrl: '../src/assets/backgrounds/lawyerUp.png',
     title: 'Lawyer Up',
     content: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti suscipit voluptate accusantium, laudantium ratione inventore quisquam numquam eos voluptatem cupiditate mollitia ipsam est illo nesciunt.'
   },
   {
-    imageUrl: '../../src/assets/backgrounds/AskYourPDF.png',
+    imageUrl: '../src/assets/backgrounds/AskYourPDF.png',
     title: 'Ask Your PDF',
     content: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti suscipit voluptate accusantium, laudantium ratione inventore quisquam numquam eos voluptatem cupiditate mollitia ipsam est illo nesciunt.'
   },
   {
-    imageUrl: '../../src/assets/backgrounds/CPU.png',
+    imageUrl: '../src/assets/backgrounds/CPU.png',
     title: 'CPU Scheduling Simulator',
     content: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti suscipit voluptate accusantium, laudantium ratione inventore quisquam numquam eos voluptatem cupiditate mollitia ipsam est illo nesciunt.'
   },
   {
-    imageUrl: '../../src/assets/backgrounds/AskYourPDF.png',
+    imageUrl: '../src/assets/backgrounds/AskYourPDF.png',
     title: 'UniBuddy',
     content: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti suscipit voluptate accusantium, laudantium ratione inventore quisquam numquam eos voluptatem cupiditate mollitia ipsam est illo nesciunt.'
   }
