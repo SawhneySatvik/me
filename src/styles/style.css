@@ -107,18 +107,19 @@ header:hover{
   padding-bottom: 40px;
 }
 .code {
-  height: 180px;
+  height: 200px;
   float: right;
   margin: 0 0 0 5%;
 }
 .team {
-  height: 180px;
+  height: 230px;
   float: left;
-  margin: 0 5% 0 0;
+  padding-top: 30px;
+  margin: 0 5% 6% 0;
 }
 .satvikimage{
   border-radius: 50%;
-  height: 180px;
+  height: 200px;
   float: left;
   margin: 0 5% 0 0;
 }
@@ -128,7 +129,7 @@ header:hover{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding: 20px;
+  padding: 50px;
 }
 .card {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
@@ -165,7 +166,11 @@ header:hover{
 .card:hover .card-image {
   opacity: 0.4;
 }
-
+.card:hover{
+  transform: scale(1.1);
+  transition: 1.3s ease-in-out;
+  z-index: 2;
+}
 .card h2 {
   margin-top: 0;
 }
@@ -243,11 +248,5 @@ header:hover{
   content: '';
   display: block;
   height: inherit;
-<<<<<<< HEAD
   animation: bounceIn 2s infinite;
 }
-=======
-  background-color: #ffffff; /* Background color */
-  animation: bounceIn 2s infinite; /* Animation */
-}
->>>>>>> 767a2ebcb803a82d3936f3468f979e5ea29a6584
