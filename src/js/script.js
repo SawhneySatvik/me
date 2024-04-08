@@ -50,22 +50,22 @@ const container = document.querySelector('.container-project');
 
 const cardData = [
   {
-    imageUrl: '../../src/assets/backgrounds/lawyerUp.png',
+    imageUrl: './src/assets/backgrounds/lawyerUp.png',
     title: 'Lawyer Up',
     content: 'Lawyer Up , Legal ChatBot — Google Solution Challenge 2024\nTechnologies Used : HTML, CSS, Javascript, Gemini-Pro , Google AI Studio , Github\nLawyer up is a website integrated with a chatbot which provides legal advice. Trained it on Google AI Studio and it is built on the Gemini-Pro model. \n Website Link : https://sawhneysatvik.github.io/LawyerUp \n Github Repository Link : https://github.com/SawhneySatvik/LawyerUp'
   },
   {
-    imageUrl: '../../src/assets/backgrounds/AskYourPDF.png',
+    imageUrl: './src/assets/backgrounds/AskYourPDF.png',
     title: 'Ask Your PDF',
     content: "Ask Your PDF , Generative AI Model — VAC Gen AI and LLM project\nTechnologies Used : Python, Streamlit, OpenAI ChatGPT 3.5, Ada-2, FAISS, Langchain\nMade a python web app using streamlit, integrated OpenAI’s Ada-2 for embeddings, and used FAISS for similarity search. In this project one could upload PDFs and then after processing in real time, they could chat with it and ask questions. \n Github Repository Link : https://github.com/SawhneySatvik/GenAIandLLM"
   },
   {
-    imageUrl: '../../src/assets/backgrounds/CPU.png',
+    imageUrl: './src/assets/backgrounds/CPU.png',
     title: 'CPU Scheduling Simulator',
     content: 'Developed with HTML, CSS, Vanilla JavaScript, and Bootstrap, it offers interactive visualization and analysis of various CPU scheduling algorithms. It was developed for Operating system course mini project.'
   },
   {
-    imageUrl: '../../src/assets/backgrounds/UniBuddy.png',
+    imageUrl: './src/assets/backgrounds/UniBuddy.png',
     title: 'UniBuddy',
     content: 'UniBuddy , Java Project — Programming in Java- course in college Technologies Used : Java , MySQL -UniBuddy is a student management system built on Java and connected to MySQL demonstrating JDBC skills. It was an end to end project with frontend and backend \nGithub Repository Link : https://github.com/SawhneySatvik/UniBuddy-Java'
   }
