@@ -24,29 +24,9 @@ var typed2 = new Typed('#typed-text2', {
     loop: true
 });
 
-//Projects
-
-const panels = document.querySelectorAll(`.panel`);
-
-panels.forEach((panel) => {
-  panel.addEventListener("click", () => {
-    removeActiveClasses();
-    panel.classList.add("active");
-  });
-});
-
-function removeActiveClasses() {
-  panels.forEach((panel) => {
-    panel.classList.remove("active");
-  });
-}
-
 // card
 
 const container = document.querySelector('.container-project');
-
-// Example card data
-
 
 const cardData = [
   {
@@ -103,3 +83,20 @@ function renderCards(cardData) {
 
 // Call the function to render cards
 renderCards(cardData);
+
+//Gallery
+
+const panels = document.querySelectorAll(`.panel`);
+
+panels.forEach((panel) => {
+  panel.addEventListener("click", () => {
+    removeActiveClasses();
+    panel.classList.add("active");
+  });
+});
+
+function removeActiveClasses() {
+  panels.forEach((panel) => {
+    panel.classList.remove("active");
+  });
+}

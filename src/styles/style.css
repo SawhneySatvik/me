@@ -24,7 +24,11 @@ header{
   position: sticky;
   top: 0;
   z-index: 2;
-  background-color: transparent;
+  background-color: aliceblue;
+}
+footer{
+  bottom: 0;
+  background-color: aliceblue;
 }
 header:hover{
   background-color: aliceblue;
@@ -56,7 +60,6 @@ header:hover{
     align-items: center;
     text-align: center;
     position: relative;
-    margin-bottom: 5px;
     z-index: -2;
 }
   
